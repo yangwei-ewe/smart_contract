@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es6",
+        "declaration": true,
+        "declarationMap": true,
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "sourceMap": true,
+        "noUnusedLocals": false,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "./src/**/*.spec.ts"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "peers": {
+        "peer0.org1.example.com": {
+            "url": "grpcs://localhost:7051"
+        },
+        "peer0.org2.example.com": {
+            "url": "grpcs://localhost:9051"
+        }
+    }
+}

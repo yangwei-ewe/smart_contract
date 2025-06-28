@@ -1,0 +1,20 @@
+{
+  "name": "gateway-ts",
+  "version": "1.0.0",
+  "description": "Asset Transfer Basic Application implemented in typeScript using fabric-gateway",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "node dist/app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@hyperledger/fabric-gateway": "^1.7.1",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3",
+    "undici-types": "^7.10.0"
+  }
+}
